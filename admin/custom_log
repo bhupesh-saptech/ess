@@ -1,0 +1,156 @@
+
+2025-03-19 20:27:54 - select 'user'   as param,
+                     count(*) as count
+                from users
+              union
+              select 'role'   as param,
+                     count(*) as count
+                from usr_role
+              union
+              select 'supl'   as param,
+                     count(*) as count
+                from supplier 
+              union
+              select 'pgrp'   as param,
+                     count(*) as count
+                from pur_grps
+              union
+              select 'plnt'   as param,
+                     count(*) as count
+                from plants
+              union
+              select 'sloc'   as param,
+                     count(*) as count
+                from stor_loc
+2025-03-19 20:27:54 - insert ignore into usr_auth ( user_id,
+                                                obj_typ,
+                                                obj_val)
+                                        values( ?, ?, ?)
+2025-03-19 20:27:54 - select * from obj_keys where obj_typ = ?
+2025-03-19 20:27:54 - select eknam as obj_txt from pur_grps where pgrp_id = ?
+2025-03-19 20:27:54 - select a.*,b.obj_typ,c.obj_key,b.obj_val from usr_data as a left outer join usr_auth as b on b.user_id = a.user_id left outer join obj_keys as c on c.obj_typ = b.obj_typ where b.obj_typ = ? and b.obj_val = ?
+2025-03-19 20:27:54 - select * from users
+2025-03-19 20:29:47 - select 'user'   as param,
+                     count(*) as count
+                from users
+              union
+              select 'role'   as param,
+                     count(*) as count
+                from usr_role
+              union
+              select 'supl'   as param,
+                     count(*) as count
+                from supplier 
+              union
+              select 'pgrp'   as param,
+                     count(*) as count
+                from pur_grps
+              union
+              select 'plnt'   as param,
+                     count(*) as count
+                from plants
+              union
+              select 'sloc'   as param,
+                     count(*) as count
+                from stor_loc
+2025-03-19 20:29:47 - insert ignore into usr_auth ( user_id,
+                                                obj_typ,
+                                                obj_val)
+                                        values( ?, ?, ?)
+2025-03-19 20:29:47 - select * from obj_keys where obj_typ = ?
+2025-03-19 20:29:47 - select eknam as obj_txt from pur_grps where pgrp_id = ?
+2025-03-19 20:29:47 - select a.*,b.obj_typ,c.obj_key,b.obj_val from usr_data as a left outer join usr_auth as b on b.user_id = a.user_id left outer join obj_keys as c on c.obj_typ = b.obj_typ where b.obj_typ = ? and b.obj_val = ?
+2025-03-19 20:29:47 - select * from users
+2025-03-19 20:30:33 - select 'user'   as param,
+                     count(*) as count
+                from users
+              union
+              select 'role'   as param,
+                     count(*) as count
+                from usr_role
+              union
+              select 'supl'   as param,
+                     count(*) as count
+                from supplier 
+              union
+              select 'pgrp'   as param,
+                     count(*) as count
+                from pur_grps
+              union
+              select 'plnt'   as param,
+                     count(*) as count
+                from plants
+              union
+              select 'sloc'   as param,
+                     count(*) as count
+                from stor_loc
+2025-03-19 20:30:33 - insert ignore into usr_auth ( user_id,
+                                                obj_typ,
+                                                obj_val)
+                                        values( ?, ?, ?)
+2025-03-19 20:30:33 - select * from obj_keys where obj_typ = ?
+2025-03-19 20:30:33 - select eknam as obj_txt from pur_grps where pgrp_id = ?
+2025-03-19 20:30:33 - select a.*,b.obj_typ,c.obj_key,b.obj_val from usr_data as a left outer join usr_auth as b on b.user_id = a.user_id left outer join obj_keys as c on c.obj_typ = b.obj_typ where b.obj_typ = ? and b.obj_val = ?
+2025-03-19 20:30:33 - select * from users
+2025-03-19 20:32:16 - select 'user'   as param,
+                     count(*) as count
+                from users
+              union
+              select 'role'   as param,
+                     count(*) as count
+                from usr_role
+              union
+              select 'supl'   as param,
+                     count(*) as count
+                from supplier 
+              union
+              select 'pgrp'   as param,
+                     count(*) as count
+                from pur_grps
+              union
+              select 'plnt'   as param,
+                     count(*) as count
+                from plants
+              union
+              select 'sloc'   as param,
+                     count(*) as count
+                from stor_loc
+2025-03-19 20:32:16 - insert ignore into usr_auth ( user_id,
+                                                obj_typ,
+                                                obj_val)
+                                        values( ?, ?, ?)
+2025-03-19 20:32:16 - select * from obj_keys where obj_typ = ?
+2025-03-19 20:32:16 - select eknam as obj_txt from pur_grps where pgrp_id = ?
+2025-03-19 20:32:16 - select a.*,b.obj_typ,c.obj_key,b.obj_val from usr_data as a left outer join usr_auth as b on b.user_id = a.user_id left outer join obj_keys as c on c.obj_typ = b.obj_typ where b.obj_typ = ? and b.obj_val = ?
+2025-03-19 20:32:16 - select * from users
+2025-03-19 20:33:02 - select 'user'   as param,
+                     count(*) as count
+                from users
+              union
+              select 'role'   as param,
+                     count(*) as count
+                from usr_role
+              union
+              select 'supl'   as param,
+                     count(*) as count
+                from supplier 
+              union
+              select 'pgrp'   as param,
+                     count(*) as count
+                from pur_grps
+              union
+              select 'plnt'   as param,
+                     count(*) as count
+                from plants
+              union
+              select 'sloc'   as param,
+                     count(*) as count
+                from stor_loc
+2025-03-19 20:33:02 - insert ignore into usr_auth ( user_id,
+                                                obj_typ,
+                                                obj_val)
+                                        values( ?, ?, ?)
+2025-03-19 20:33:02 - select * from obj_keys where obj_typ = ?
+2025-03-19 20:33:02 - select eknam as obj_txt from pur_grps where pgrp_id = ?
+2025-03-19 20:33:02 - select a.*,b.obj_typ,c.obj_key,b.obj_val from usr_data as a left outer join usr_auth as b on b.user_id = a.user_id left outer join obj_keys as c on c.obj_typ = b.obj_typ where b.obj_typ = ? and b.obj_val = ?
+2025-03-19 20:33:02 - select * from users
