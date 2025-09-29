@@ -56,3 +56,5 @@
 [11-Apr-2025 14:35:18 UTC] PHP Warning:  include(): Failed opening '../incld/jslib.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/agiletwn/public_html/ess/index.php on line 39
 [11-Apr-2025 14:35:18 UTC] PHP Warning:  include(../incld/footer.php): Failed to open stream: No such file or directory in /home1/agiletwn/public_html/ess/index.php on line 40
 [11-Apr-2025 14:35:18 UTC] PHP Warning:  include(): Failed opening '../incld/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/agiletwn/public_html/ess/index.php on line 40
+[11-Apr-2025 14:35:18 UTC] PHP Warning:  include(): Failed opening '../incld/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/agiletwn/public_html/ess/index.php on line 40
+[11-Apr-2025 14:35:18 UTC] PHP Warning:  include(): Failed opening '../incld/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/agiletwn/public_html/ess/index.php on line 40
