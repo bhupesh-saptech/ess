@@ -13,6 +13,7 @@
             <td height="50px"></td>
         </tr>
         <tr>
+            <h1>Employee Self Service</h1>
             <td align="center"><a href="./admin/login.php"><img src="assets/dist/img/login.png"   width="100%" height="30%" ></a></td>
         </tr>
         </table>
